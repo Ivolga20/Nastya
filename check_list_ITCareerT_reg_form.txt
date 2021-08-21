@@ -1,0 +1,14 @@
+	
+Project		IT Career Today
+Component	Registration from
+		http://itcareer.pythonanywhere.com/
+	
+Build		1_1
+Environment	Windows 10
+Date 		20.08.21
+Tester		Shakhova A.
+
+CHECK-LIST:
+
+
+https://docs.google.com/spreadsheets/d/1kFyu0WrnuTaf7IMkzJEzlH4IH2isvBqs/edit?usp=sharing&ouid=110375434275174304439&rtpof=true&sd=true
