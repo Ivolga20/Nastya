@@ -1,0 +1,33 @@
+ID
+B4_ID ITCT_reg_form
+
+Title:
+Registration form (name field does not match “ ” “-” “ ' ” symbols only) 
+
+Summary:
+Name field does not match the technical requirement “ “ ” “-” “ ' ” symbols only ” 
+ 
+
+	
+Project				IT Career Today
+Component			Registration web from
+Version				Build 1_1
+Severity			Minor
+Priority			Major
+Author				Shakhova A.
+
+Steps to Reproduce:		
+1. Go to the page http://itcareer.pythonanywhere.com/
+2. Enter the wong-symbol name and usual surname, e-mail, password in the registration field (D%m&itry#, Kozlov,  Dkozlov@ya.ru, 11Qqqqq999).
+3. Click the Submit button.
+
+Actual result: 	
+Registration was successfully completed.
+Notification “Success! Hello: D%m&itry# Kozlov».
+
+Expected result:
+Registration is not completed.
+Notification “Error! Please enter the correct name».
+
+Additional information
+No notifications for used about field requirements 

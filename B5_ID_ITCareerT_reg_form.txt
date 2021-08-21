@@ -1,0 +1,33 @@
+ID
+B5_ID ITCT_reg_form
+
+Title:
+Registration form (name field does not match length requirements) 
+
+Summary:
+Name field does not match the technical requirement “max length 64 characters”
+
+	
+Project				IT Career Today
+Component			Registration web from
+Version				Build 1_1
+Severity			Major
+Priority			Major
+Author				Shakhova A.
+
+Steps to Reproduce:		
+1. Go to the page http://itcareer.pythonanywhere.com/
+2. Enter 64 length long name in the name field (Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
+3. Enter usual Latin surname, e-mail, password in the registration field (Kozlov,  Dkozlov@ya.ru, 11Qqqqq999).
+4. Click the Submit button.
+
+Actual result: 	
+Registration was not completed.
+Notification “Error: Error: All Fields are Required”.
+
+Expected result:
+Registration is successfully completed.
+Notification “Error! Hello Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Kozlov».
+
+Additional information
+Actual max length 25 characters

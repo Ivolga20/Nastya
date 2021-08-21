@@ -1,0 +1,34 @@
+ID
+B2_ID ITCT_reg_form
+
+Title:
+Regitration form (registration with an empty e-mail) 
+
+Summary:
+Registration of a new user with an empty e-mail 
+ 
+
+	
+Project				IT Career Today
+Component			Registration web from
+Version				Build 1_1
+Severity			Critical
+Priority			Critical
+Author				Shakhova A.
+
+Steps to Reproduce:		
+1. Go to the page http://itcareer.pythonanywhere.com/
+2. Enter a usual first name, last name, password in the registration field (Dmitry, Kozlov, 11Qqqqq999).
+3. Leave the e-mail field empty.
+4. Click the Submit button.
+
+Actual result: 	
+Registration was successfully completed.
+Notification “Success! Hello: Dmitry Kozlov».
+
+Expected result:
+Registration is not completed.
+Notification “Error! Please enter your e-mail».
+
+Additional information
+No "mandatory field - *" marks in e-mail field.

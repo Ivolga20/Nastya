@@ -1,0 +1,33 @@
+B1_ID ITCT_reg_form
+
+Title:
+Registraion form (registration with an empty password)
+
+Summary:
+Registration of a new user with an empty password
+(bug #85 in the ITCT_reg_form check-list). 
+
+	
+Project				IT Career Today
+Component			Registration web from
+Version				Build 1_1
+Severity			Critical
+Priority			Critical
+Author				Shakhova A.
+
+Steps to Reproduce:		
+1. Go to the page http://itcareer.pythonanywhere.com/
+2. Enter a usual first name, last name, e-mail in the registration field (Dmitry, Kozlov, Dkozlov@ya.ru).
+3. Leave the password field empty.
+4. Click the Submit button.
+
+Actual result: 	
+Registration was successfully completed.
+Notification “Success! Hello: Dmitry Kozlov».
+
+Expected result:
+Registration is not completed.
+Notification “Error! Please enter the password».
+
+Additional information
+No "mandatory field - *" marks in password field.

@@ -1,0 +1,33 @@
+ID
+B3_ID ITCT_reg_form
+
+Title:
+Registration form (name field does not match “Latin letters only") 
+
+Summary:
+Name field does not match the technical requirement "Latin letters only" 
+
+
+	
+Project				IT Career Today
+Component			Registration web from
+Version				Build 1_1
+Severity			Minor
+Priority			Major
+Author				Shakhova A.
+
+Steps to Reproduce:		
+1. Go to the page http://itcareer.pythonanywhere.com/
+2. Enter a Cyrillic name and usual Latin surname, e-mail, password in the registration field (Дмитрий, Kozlov,  Dkozlov@ya.ru, 11Qqqqq999).
+3. Click the Submit button.
+
+Actual result: 	
+Registration was successfully completed.
+Notification “Success! Hello: Дмитрий Kozlov».
+
+Expected result:
+Registration is not completed.
+Notification “Error! Please enter the correct name».
+
+Additional information
+No notifications for used about field requirements 
