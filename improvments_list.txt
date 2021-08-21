@@ -1,0 +1,32 @@
+List of improvements
+
+Project				IT Career Today
+Component			Registration from        http://itcareer.pythonanywhere.com/
+Version				Build 1_1
+Author				Shakhova A.
+
+1. Add “must field” (*)  marks.
+2. When submitting: In case of an error, do not reset the information from the correct  fields.
+3. Add notification in case of entering wrong data to the fields
+4. Improve the text of successful registration / / error message
+
+Name field
+5. Automatic case change: first letter - uppercase, next letters — lowercase.
+6. Field must contain letters (names like _'_'_ or 9999999999 are not allowed).
+7. Change the next “Name?” to “Enter your name”.
+8. Add notification in case of entering wrong data.
+
+Surname field
+9. Automatic case change: first letter - uppercase, next letters — lowercase.
+10. Field must contain letters (names like _'_'_ or 9999999999 are not allowed).
+11. Change “Surname?” to “Enter your surname”
+12. Add notification in case of entering wrong data.
+
+E-mail field
+13. Change the next “Your email address.” to “Enter your e-mail address”
+14. Add notification in case of entering wrong data.
+
+Password field
+15. Add Password requirements ditails.
+16. Add notification in case of entering wrong data.
+17. Add one more field for the password confirmation.
