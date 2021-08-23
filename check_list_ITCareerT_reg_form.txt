@@ -4,7 +4,7 @@ Component	Registration from
 		http://itcareer.pythonanywhere.com/
 	
 Build		1_1
-Environment	Windows 10
+Environment	OS Windows 10 Pro, Google Chrome 91.0.4472.114 (64 -bit)
 Date 		20.08.21
 Tester		Shakhova A.
 

@@ -5,21 +5,23 @@ Component			Registration from        http://itcareer.pythonanywhere.com/
 Version				Build 1_1
 Author				Shakhova A.
 
-1. Add “must field” (*)  marks.
-2. When submitting: In case of an error, do not reset the information from the correct  fields.
+General
+1. Add special symbols (*) to highlight the obligatiry fields
+2. When submitting: in case of an error, do not reset the information from the correct  fields
 3. Add notification in case of entering wrong data to the fields
 4. Improve the text of successful registration / / error message
 
 Name field
 5. Automatic case change: first letter - uppercase, next letters — lowercase.
-6. Field must contain letters (names like _'_'_ or 9999999999 are not allowed).
-7. Change the next “Name?” to “Enter your name”.
+6. Add the requairement: field must contain letters (names like _'_'_ or 9999999999 are not allowed).
+7. Change the next “Name?” to “Enter your name”  or an examle like "Semen".
 8. Add notification in case of entering wrong data.
+9. Change "submit" bottom to "sight up" bottom.
 
 Surname field
-9. Automatic case change: first letter - uppercase, next letters — lowercase.
-10. Field must contain letters (names like _'_'_ or 9999999999 are not allowed).
-11. Change “Surname?” to “Enter your surname”
+10. Automatic case change: first letter - uppercase, next letters — lowercase.
+11. Add the requairement: field must contain letters (names like _'_'_ or 9999999999 are not allowed).
+11. Change “Surname?” to “Enter your surname” or an examle like "Petrov"
 12. Add notification in case of entering wrong data.
 
 E-mail field
@@ -30,3 +32,9 @@ Password field
 15. Add Password requirements ditails.
 16. Add notification in case of entering wrong data.
 17. Add one more field for the password confirmation.
+18. Add function that helps a user to see the passward.
+
+Optional
+19. Add the gradation of the password's reliability
+20. Add the possibility to sign up using the social media networks accounts 
+21. Add informaion about the purpose of the page 

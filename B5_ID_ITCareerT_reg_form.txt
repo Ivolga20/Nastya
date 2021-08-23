@@ -16,7 +16,7 @@ Priority			Major
 Author				Shakhova A.
 
 Steps to Reproduce:		
-1. Go to the page http://itcareer.pythonanywhere.com/
+1. Open the website http://itcareer.pythonanywhere.com/
 2. Enter 64 length long name in the name field (Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
 3. Enter usual Latin surname, e-mail, password in the registration field (Kozlov,  Dkozlov@ya.ru, 11Qqqqq999).
 4. Click the Submit button.

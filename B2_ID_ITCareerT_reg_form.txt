@@ -17,8 +17,8 @@ Priority			Critical
 Author				Shakhova A.
 
 Steps to Reproduce:		
-1. Go to the page http://itcareer.pythonanywhere.com/
-2. Enter a usual first name, last name, password in the registration field (Dmitry, Kozlov, 11Qqqqq999).
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Enter a usual first name, last name, password in the registration form (Dmitry, Kozlov, 11Qqqqq999).
 3. Leave the e-mail field empty.
 4. Click the Submit button.
 
